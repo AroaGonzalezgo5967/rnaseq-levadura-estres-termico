@@ -1,0 +1,17 @@
+# Datos crudos y archivos pesados
+data/raw/*
+!data/raw/.gitkeep
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.sam
+data/reference/*.fa
+data/reference/*.gtf
+data/reference/genome_index*
+
+# Sistema y R
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
