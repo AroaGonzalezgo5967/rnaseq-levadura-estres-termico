@@ -1,0 +1,12 @@
+name: rnaseq-levadura
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - fastqc
+  - trimmomatic
+  - hisat2
+  - samtools
+  - subread          # incluye featureCounts
+  - r-base
+  - bioconductor-deseq2
